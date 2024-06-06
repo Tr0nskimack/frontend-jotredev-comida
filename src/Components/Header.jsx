@@ -17,24 +17,24 @@ export const Header = () => {
           <h1>logo</h1>
         </div>
         {/* menu */}
-        <div className="bg-white w-[500px] h-[50px] rounded-full flex justify-between items-center px-1 text-[12px] shadow-sm">
+        <div className="bg-white w-[500px] h-[45px] rounded-full flex justify-between items-center px-1 text-[12px] shadow-sm">
           <div className="bg-bgBoton active:bg-green-500 transition-all duration-200 shadow-md rounded-full h-[40px] w-[70px] flex items-center justify-center gap-1">
             <FcHome size={16} />
             <Link>Inicio</Link>
           </div>
-          <div className="flex gap-1">
+          <div className="flex gap-1 hover:bg-gray-100 h-[40px] w-[70px] items-center justify-center rounded-full transition-all duration-200 p-1">
             <GrNotes size={16} />
             <Link>Menu</Link>
           </div>
-          <div className="flex gap-1">
+          <div className="flex gap-1 hover:bg-gray-100 h-[40px] w-[70px] items-center justify-center rounded-full transition-all duration-200 p-1">
             <LuSheet size={16} />
             <Link>ordenes</Link>
           </div>
-          <div className="flex gap-1">
+          <div className="flex gap-1 hover:bg-gray-100 h-[40px] w-[70px] items-center justify-center rounded-full transition-all duration-200 p-1">
             <FaRegClock size={16} />
             <Link>Historial</Link>
           </div>
-          <div className="flex gap-1">
+          <div className="flex gap-1 hover:bg-gray-100 h-[40px] w-[70px] items-center justify-center rounded-full transition-all duration-200 p-1">
             <PiInvoice size={16} />
             <Link>Facturas</Link>
           </div>

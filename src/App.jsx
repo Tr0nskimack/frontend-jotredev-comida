@@ -7,9 +7,6 @@ import {
   ScrollRestoration,
 } from "react-router-dom";
 import { Header } from "./Components/Header";
-import { FilterFood } from "./Components/FilterFood";
-import { Cards } from "./Components/Cards";
-import { Card } from "./Components/Card";
 
 
 export const DataContext = createContext();

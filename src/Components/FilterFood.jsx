@@ -36,7 +36,7 @@ export const FilterFood = () => {
   ];
   return (
     <div className="flex items-center px-3 mt-10 gap-2">
-      <div className="w-[1225px] h-[50px] rounded-full flex border-gray-300 border-[1px] justify-between items-center text-[12px] shadow-sm px-1">
+      <div className="w-[1225px] h-[45px] rounded-full flex border-gray-300 border-[1px] justify-between items-center text-[12px] shadow-sm px-1">
         {menu.map((item, index) => {
           return (
             <div className="px-3">
@@ -44,8 +44,8 @@ export const FilterFood = () => {
                 <button
                   className={
                     index % 10 === 0
-                      ? "bg-bgBoton active:bg-green-500 transition-all duration-200 rounded-full h-[40px] w-[70px] flex items-center shadow-md justify-center"
-                      : ""
+                      ? "bg-bgBoton active:bg-green-500 transition-all duration-200 rounded-full h-[40px] w-[70px] flex items-center shadow-md justify-center "
+                      : "hover:bg-gray-300 h-[40px] w-[90px] items-center justify-center rounded-full transition-all duration-200 p-1"
                   }
                 >
                   {item.nombre}
@@ -58,7 +58,7 @@ export const FilterFood = () => {
       <div className="relative">
         <input
           type="text"
-          className="w-[400px] h-[50px] bg-white flex border-gray-300 border-[1px] rounded-full text-[12px] shadow-sm px-7 items-center text-gray-400 outline-none relative "
+          className="w-[400px] h-[45px] bg-white flex border-gray-300 border-[1px] rounded-full text-[12px] shadow-sm px-7 items-center text-gray-400 outline-none relative "
           placeholder="Buscar Productos"
         >
           

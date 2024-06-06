@@ -3,8 +3,8 @@ import { GoPlus } from "react-icons/go";
 
 export const Card = ({ data }) => {
   return (
-    <div className="mt-6">
-      <div className="w-[600px] h-[260px] bg-white flex border-gray-300 border-[1px] rounded-2xl text-[12px] shadow-sm  p-8">
+    
+      <div className="max-w-[600px] h-[260px] bg-white flex border-gray-300 border-[1px] rounded-2xl text-[12px] shadow-sm mt-6 p-8">
         <div className="flex flex-col justify-between">
           {/* icono npmbre y descuento */}
           <div className="flex items-center gap-4">
@@ -37,6 +37,6 @@ export const Card = ({ data }) => {
           </div>
         </div>
       </div>
-    </div>
+    
   );
 };

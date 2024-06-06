@@ -4,8 +4,8 @@ import hamburguesa from "/hamburguesa.png";
 import { GoPlus } from "react-icons/go";
 export const Cards = ({ dataImgs }) => {
   return (
-    <div className="px-3 flex gap-3">
-      <div className="max-w-[1250px] grid grid-cols-2 gap-7">
+    <div className="px-3 flex   gap-3">
+      <div className="max-w-[1250px] grid sm:grid-cols-1 md:grid-cols-2  gap-7">
         {dataImgs.map((data) => {
           return (
             <div>
@@ -101,7 +101,7 @@ export const Cards = ({ dataImgs }) => {
                   </div>
                 </div>
 
-                <div className="p-3 mt-3 rounded-2xl">
+                <div className="p-3 mt-[100px] rounded-2xl">
                   <div className="">
                     <div className="flex justify-between">
                       <p className="text-[16px]">Subtotal</p>
