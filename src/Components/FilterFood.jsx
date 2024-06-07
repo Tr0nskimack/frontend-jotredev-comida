@@ -35,7 +35,7 @@ export const FilterFood = () => {
     },
   ];
   return (
-    <div className="flex items-center px-3 mt-10 gap-2">
+    <div className="hidden xl:flex items-center px-3 mt-10 gap-2">
       <div className="max-w-[1225px] h-[45px] rounded-full flex border-gray-300 border-[1px] justify-between items-center text-[12px] shadow-sm px-1">
         {menu.map((item, index) => {
           return (
