@@ -26,7 +26,7 @@ export const Header = () => {
     },
     {
       nombre: "Historial",
-      icono: <PiInvoice size={20}/>,
+      icono: <FaRegClock size={20}/>,
     },
     {
       nombre: "Facturas",
