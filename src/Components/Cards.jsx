@@ -4,8 +4,8 @@ import hamburguesa from "/hamburguesa.png";
 import { GoPlus } from "react-icons/go";
 export const Cards = ({ dataImgs }) => {
   return (
-    <div className="px-3 flex   gap-3">
-      <div className="max-w-[1250px] grid sm:grid-cols-1 md:grid-cols-2  gap-7">
+    <div className="px-3 md:flex gap-3">
+      <div className="max-w-[1250px] grid md:grid-cols-1 lg:grid-cols-2 gap-7">
         {dataImgs.map((data) => {
           return (
             <div>
@@ -16,7 +16,7 @@ export const Cards = ({ dataImgs }) => {
       </div>
       {/* search and payments */}
       <div>
-        <div className="w-[400px] h-[700px] bg-white flex border-gray-300 border-[1px] rounded-2xl text-[12px] shadow-sm p-8 mt-6 ">
+        <div className="w-[390px]  h-[700px] bg-white flex border-gray-300 border-[1px] rounded-2xl text-[12px] shadow-sm p-8 mt-6 ">
           <div className="w-full">
             <h1 className="text-[17px] font-semibold tracking-wide">
               Detalles del plan
@@ -39,7 +39,7 @@ export const Cards = ({ dataImgs }) => {
 
                   <div className="flex justify-between w-full items-center mt-3">
                     <div className="flex gap-2 items-center">
-                      <button className="  bg-bgBoton rounded-full p-[3px] shadow-md active:bg-green-500 transition-all duration-200">
+                      <button className="bg-bgBoton rounded-full p-[3px] shadow-md active:bg-green-500 transition-all duration-200">
                         <GoPlus size={18} />
                       </button>
                       <button className="  bg-bgBoton rounded-full p-[3px] shadow-md active:bg-green-500 transition-all duration-200">

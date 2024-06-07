@@ -17,7 +17,7 @@ export const Header = () => {
           <h1>logo</h1>
         </div>
         {/* menu */}
-        <div className="bg-white w-[500px] h-[45px] rounded-full flex justify-between items-center px-1 text-[12px] shadow-sm">
+        <div className="hidden sm:flex bg-white w-[500px] h-[45px] rounded-full  justify-between items-center px-1 text-[12px] shadow-sm ">
           <div className="bg-bgBoton active:bg-green-500 transition-all duration-200 shadow-md rounded-full h-[40px] w-[70px] flex items-center justify-center gap-1">
             <FcHome size={16} />
             <Link>Inicio</Link>
